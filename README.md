@@ -1,5 +1,5 @@
 # Sales Analysis
-## Dự án thuộc chương trình: STARTTRAIN - THE NEXT ANALYST
+## Program: STARTTRAIN - THE NEXT ANALYST
 
 ![Power BI](https://img.shields.io/badge/Tools-Power%20BI-yellow?style=for-the-badge&logo=powerbi)
 ![Data Analysis](https://img.shields.io/badge/Domain-Sales%20%26%20Retail-blue?style=for-the-badge)
@@ -7,85 +7,85 @@
 
 ---
 
-## 📌 1. Tổng quan dự án
+## 📌 1. Project Overview
 
-Dự án tập trung vào việc phân tích dữ liệu kinh doanh của một doanh nghiệp bán lẻ gồm 18 mặt hàng hỗn hợp (điện thoại, thiết bị điện tử, game, sách, máy tính,...) bán hàng qua nhiều kênh khác nhau[cite: 1]. Khoảng thời gian dữ liệu kéo dài 3 năm, từ ngày 01/01/2016 đến ngày 31/12/2018[cite: 1].
+This project focuses on analyzing the sales data of a retail business with 18 mixed product categories (phones, electronic devices, games, books, computers, etc.) selling through multiple channels[cite: 1]. The dataset covers a 3-year period, spanning from January 1st, 2016 to December 31st, 2018[cite: 1].
 
-Các kênh bán hàng của doanh nghiệp bao gồm[cite: 1]:
-*   **Kênh Online:** Telephone, website, email, fax,...[cite: 1]
-*   **Kênh Offline:** Local store[cite: 1].
+The business operates an omnichannel sales model consisting of[cite: 1]:
+*   **Online Channels:** Telephone, website, email, fax, etc[cite: 1].
+*   **Offline Channel:** Local store[cite: 1].
 
-### 🎯 Yêu cầu & Mục tiêu
-Doanh nghiệp yêu cầu xây dựng khoảng 8 trang dashboard nhằm đánh giá tổng quan, phân tích và tìm ra cơ hội có thể cải thiện hiệu suất kinh doanh[cite: 1]. Công cụ thực hiện chính được chỉ định là Power BI[cite: 1].
-
----
-
-## 📊 2. Các chỉ số cốt lõi & Hướng phân tích (Key Metrics)
-
-Dự án tiến hành đo lường và đánh giá dựa trên các chỉ số và khía cạnh cốt lõi sau[cite: 1]:
-*   **Revenue:** Doanh thu[cite: 1].
-*   **Quantity:** Số lượng[cite: 1].
-*   **Average selling price:** Giá bán trung bình[cite: 1].
-*   **Gross profit:** Lợi nhuận gộp[cite: 1].
-*   **Gross profit margin:** Biên lợi nhuận gộp[cite: 1].
-*   **Number of orders:** Số lượng đơn hàng[cite: 1].
-*   **Product performance:** Phân tích hiệu suất sản phẩm[cite: 1].
-*   **Sales channel performance:** Phân tích hiệu suất kênh bán hàng[cite: 1].
-
-### 🔍 Các câu hỏi lớn cần giải quyết
-Hệ thống báo cáo được thiết kế nhằm trả lời toàn diện các câu hỏi sau[cite: 1]:
-*   Doanh thu sản phẩm đến từ đâu[cite: 1].
-*   Xu hướng thay đổi của doanh thu theo thời gian[cite: 1].
-*   So sánh hiệu quả doanh thu giữa các kênh bán hàng[cite: 1].
-*   Xác định rõ sản phẩm nào đạt hiệu suất tốt nhất và kém nhất xét trên các tiêu chí về doanh thu (revenue), số lượng bán (qty sold) và lợi nhuận gộp (gross profit)[cite: 1].
+### 🎯 Requirements & Objectives
+The objective is to build approximately 8 dashboard pages to evaluate the general overview, conduct deep-dive analysis, and identify opportunities for business improvement[cite: 1]. Power BI is the designated tool for this project[cite: 1].
 
 ---
 
-## 🛠️ 3. Quy trình thực hiện dự án (Step-by-Step Process)
+## 📊 2. Key Metrics & Analysis Focus
 
-Quy trình triển khai xây dựng hệ thống báo cáo được thực hiện qua các bước tiêu chuẩn:
+The project measures and evaluates performance based on the following key metrics and core analysis areas[cite: 1]:
+*   **Revenue:** Total sales value generated[cite: 1].
+*   **Quantity:** Total volume of products sold[cite: 1].
+*   **Average selling price:** The fluctuation of product pricing[cite: 1].
+*   **Gross profit:** Sales revenue minus cost of goods sold[cite: 1].
+*   **Gross profit margin:** Profitability percentage on revenue[cite: 1].
+*   **Number of orders:** Total volume of successful transactions[cite: 1].
+*   **Product performance:** Evaluating how different items contribute to the business[cite: 1].
+*   **Sales channel performance:** Analyzing the efficiency of each distribution channel[cite: 1].
 
-### Bước 1: Tiếp nhận Yêu cầu & Xác định bài toán (Business Understanding)
-*   Nghiên cứu yêu cầu phân tích hoạt động kinh doanh bán lẻ đa kênh dựa trên tài liệu mô tả bài toán[cite: 1].
-*   Xác định rõ mục tiêu cần đạt được và các câu hỏi kinh doanh cốt lõi cần trả lời[cite: 1].
-
-### Bước 2: Thu thập & Tiền xử lý Dữ liệu (ETL - Data Cleansing)
-*   Kết nối nguồn dữ liệu chứa thông tin vận hành trong vòng 3 năm (2016 - 2018) vào Power BI[cite: 1].
-*   Sử dụng Power Query để làm sạch dữ liệu, xử lý các giá trị trống (Null), loại bỏ trùng lặp và chuẩn hóa định dạng dữ liệu của 18 mặt hàng cũng như các kênh bán hàng[cite: 1].
-
-### Bước 3: Xây dựng Mô hình Dữ liệu (Data Modeling)
-*   Thiết kế mô hình dữ liệu dạng hình sao (Star Schema) để tối ưu hóa hiệu suất tính toán.
-*   Tạo mối quan hệ (Relationships) chặt chẽ giữa bảng nghiệp vụ bán hàng (Fact Sales) và các bảng danh mục (Dim Products, Dim Channels, Dim Date).
-
-### Bước 4: Xây dựng các chỉ số đo lường (DAX Measures)
-*   Viết các công thức DAX để tính toán chính xác các chỉ số yêu cầu bao gồm Revenue, Quantity, Average selling price, Gross profit, Gross profit margin và Number of orders[cite: 1].
-*   Phát triển các chỉ số so sánh theo thời gian (Time Intelligence) để làm rõ xu hướng tăng trưởng doanh thu qua các năm[cite: 1].
-
-### Bước 5: Thiết kế & Trực quan hóa dữ liệu (Dashboard Design)
-Xây dựng và hoàn thiện cấu trúc khoảng 8 trang dashboard trên Power BI bao gồm[cite: 1]:
-1.  **Overview Dashboard:** Đánh giá và tổng quan toàn bộ hoạt động kinh doanh[cite: 1].
-2.  **Revenue & Trend Analysis:** Phân tích chi tiết xu hướng biến động doanh thu theo dòng thời gian 3 năm[cite: 1].
-3.  **Product Performance Deep-dive:** Đi sâu vào hiệu suất của 18 mặt hàng, phân tách rõ nhóm tốt nhất và kém nhất về doanh thu, số lượng bán và lợi nhuận gộp[cite: 1].
-4.  **Channel Performance Analysis:** So sánh và đánh giá hiệu quả chi tiết giữa các kênh Online (telephone, website, email, fax) và Offline (local store)[cite: 1].
-5.  **Profitability Analysis:** Tập trung theo dõi sát sao Gross Profit và Gross Profit Margin nhằm tìm kiếm cơ hội tối ưu chi phí[cite: 1].
-6.  **Order & Transaction Insights:** Phân tích hành vi mua sắm thông qua chỉ số Number of Orders và quy mô đơn hàng[cite: 1].
-7.  **Regional/Customer Analysis:** Khám phá nguồn gốc doanh thu đến từ các tệp khách hàng hoặc khu vực địa lý.
-8.  **Business Opportunities:** Tổng hợp các phát hiện độc đáo từ dữ liệu để đề xuất giải pháp cải thiện cho doanh nghiệp[cite: 1].
-
-### Bước 6: Phân tích & Trích xuất Insights (Data Analysis)
-*   Sử dụng các bộ lọc tương tác để tìm ra các yếu tố cấu thành nên doanh thu và lợi nhuận gộp[cite: 1].
-*   Đánh giá sự chênh lệch hiệu suất giữa các kênh bán hàng và các dòng sản phẩm để tìm ra nguyên nhân cốt lõi[cite: 1].
-
-### Bước 7: Tổng hợp Khuyến nghị (Actionable Recommendations)
-*   Dựa trên kết quả phân tích từ các trang báo cáo để đề xuất giải pháp cải thiện và tối ưu hóa vận hành cho doanh nghiệp[cite: 1].
-*   Đưa ra phương án phân bổ nguồn lực hợp lý cho các kênh bán hàng tiềm năng và tối ưu chiến lược cho các sản phẩm hiệu suất kém[cite: 1].
+### 🔍 Core Business Questions to Answer
+The interactive dashboards are designed to comprehensively answer the following questions[cite: 1]:
+*   Where does product revenue come from?[cite: 1]
+*   What are the revenue trends over time?[cite: 1]
+*   How does revenue compare across different sales channels?[cite: 1]
+*   Which products achieve the best or worst performance in terms of revenue, quantity sold, and gross profit?[cite: 1]
 
 ---
 
-## 📂 4. Cấu trúc thư mục dự án
+## 🛠️ 3. Step-by-Step Process
+
+The deployment of the reporting system follows a standard data analytics lifecycle:
+
+### Step 1: Business Understanding
+*   Studied the omnichannel retail sales requirements based on the provided business problem description[cite: 1].
+*   Defined the core objectives and outlined the main business questions that need to be addressed by the dashboards[cite: 1].
+
+### Step 2: Data Acquisition & ETL (Data Cleansing)
+*   Imported 3 years of operational retail data (2016 - 2018) into Power BI[cite: 1].
+*   Used Power Query to clean data, handle missing values (Nulls), remove duplicates, and standardize formats across the 18 product categories and channels[cite: 1].
+
+### Step 3: Data Modeling
+*   Designed a Star Schema model to optimize data query performance inside Power BI.
+*   Established structured relationships (1:N) between the core transactional table (Fact Sales) and descriptive lookup tables (Dim Products, Dim Channels, Dim Date).
+
+### Step 4: DAX Measures Development
+*   Developed DAX formulas to accurately calculate foundational metrics, including Revenue, Quantity, Average selling price, Gross profit, Gross profit margin, and Number of orders[cite: 1].
+*   Created Time Intelligence measures to evaluate growth metrics such as Year-over-Year (YoY) and Month-over-Month (MoM) revenue trends over the 3-year timeline[cite: 1].
+
+### Step 5: Dashboard Design & Visualization
+Designed and completed approximately 8 dashboard pages in Power BI including[cite: 1]:
+1.  **Executive Overview:** A high-level summary of the business health including key KPIs and a 3-year performance breakdown[cite: 1].
+2.  **Revenue & Trend Analysis:** Tracking revenue changes and seasonal patterns over the 3-year timeline[cite: 1].
+3.  **Product Performance Deep-dive:** A deep dive into the 18 mixed items, identifying best-performing and worst-performing categories by revenue, qty sold, and gross profit[cite: 1].
+4.  **Channel Performance Analysis:** Comparing and evaluating performance between Online channels (telephone, website, email, fax) and Offline channels (local store)[cite: 1].
+5.  **Profitability Analysis:** Monitoring Gross Profit and Gross Profit Margin to pinpoint cost-saving and optimization opportunities[cite: 1].
+6.  **Order & Transaction Insights:** Investigating consumer shopping behaviors through the Number of Orders and cart sizing[cite: 1].
+7.  **Regional/Customer Analysis:** Exploring where revenue originates based on geographical location and major customer profiles.
+8.  **Business Opportunities:** Aggregating critical findings from the data to provide actionable recommendations for business improvement[cite: 1].
+
+### Step 6: Data Analysis & Insights Extraction
+*   Utilized interactive cross-filtering and slicers to dissect the core factors contributing to revenue and gross profit[cite: 1].
+*   Evaluated performance gaps between sales channels and product lines to identify areas of underperformance[cite: 1].
+
+### Step 7: Actionable Recommendations
+*   Formulated data-driven strategies based on dashboard findings to optimize business workflows[cite: 1].
+*   Suggested strategic resources allocation for high-ROI sales channels and proposed optimization or pricing plans for low-performing product categories[cite: 1].
+
+---
+
+## 📂 4. Project Directory Structure
 
 ```text
-├── data/                  # Thư mục chứa file dữ liệu gốc của doanh nghiệp
-├── pbix/                  # Thư mục chứa file dự án Power BI (.pbix)
-├── screenshots/           # Hình ảnh chụp giao diện các trang Dashboard
-└── README.md              # Tài liệu hướng dẫn và mô tả dự án
+├── data/                  # Raw and processed datasets
+├── pbix/                  # Power BI project file (.pbix)
+├── screenshots/           # Visual captures of the 8 dashboard pages
+└── README.md              # Project documentation and guidelines
