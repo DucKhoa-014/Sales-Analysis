@@ -65,10 +65,10 @@ Designed and completed approximately 8 dashboard pages in Power BI including:
 1.  **Executive Overview:** A high-level summary of the business health including key KPIs and a 3-year performance breakdown.
 2.  **Revenue & Trend Analysis:** Tracking revenue changes and seasonal patterns over the 3-year timeline.
 3.  **Product Performance Deep-dive:** A deep dive into the 18 mixed items, identifying best-performing and worst-performing categories by revenue, qty sold, and gross profit.
-4.  **Channel Performance Analysis:** Comparing and evaluating performance between Online channels (telephone, website, email, fax) and Offline channels (local store).
-5.  **Profitability Analysis:** Monitoring Gross Profit and Gross Profit Margin to pinpoint cost-saving and optimization opportunities.
-6.  **Order & Transaction Insights:** Investigating consumer shopping behaviors through the Number of Orders and cart sizing.
-7.  **Regional/Customer Analysis:** Exploring where revenue originates based on geographical location and major customer profiles.
+4.  **Profitability Analysis:** Monitoring Gross Profit and Gross Profit Margin to pinpoint cost-saving and optimization opportunities.
+5.  **Channel Performance Analysis:** Comparing and evaluating performance between Online channels (telephone, website, email, fax) and Offline channels (local store).
+6.  **Geography:** Exploring where revenue originates based on geographical location and major customer profiles.
+7.  **Sales Manager Performance**: Comparing manager rankings mirror market size.
 8.  **Business Opportunities:** Aggregating critical findings from the data to provide actionable recommendations for business improvement.
 
 ### Step 6: Data Analysis & Insights Extraction
