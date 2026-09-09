@@ -1,5 +1,4 @@
 # Sales Analysis
-## Program: STARTTRAIN - THE NEXT ANALYST
 
 ![Power BI](https://img.shields.io/badge/Tools-Power%20BI-yellow?style=for-the-badge&logo=powerbi)
 ![Data Analysis](https://img.shields.io/badge/Domain-Sales%20%26%20Retail-blue?style=for-the-badge)
@@ -86,6 +85,5 @@ Designed and completed approximately 8 dashboard pages in Power BI including:
 
 ```text
 ├── data/                  # Raw and processed datasets
-├── pbix/                  # Power BI project file (.pbix)
-├── screenshots/           # Visual captures of the 8 dashboard pages
+├── outcome/               # Visual captures of the 8 dashboard pages
 └── README.md              # Project documentation and guidelines
