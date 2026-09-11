@@ -86,5 +86,5 @@ Designed and completed approximately 8 dashboard pages in Power BI including:
 ```text
 ├── data/                  # Raw and processed datasets
 ├── outcome/               # Visual captures of the 8 dashboard pages
-└── README.md              # Project documentation and guidelines
+├── README.md              # Project documentation and guidelines
 └── Sales Report           # Insights and recommendation
